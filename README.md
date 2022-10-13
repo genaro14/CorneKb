@@ -1,0 +1,2 @@
+# CorneKb
+CorneKb Configuration Settings
