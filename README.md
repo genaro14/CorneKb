@@ -5,7 +5,7 @@ Info for configuring and setting up the Corne keyboard.
 
 ### QMK Configurator
 Github [Repository](https://github.com/qmk/qmk_configurator)       
-Config [File](./Files/CorneKb.json)      
+Config [File](./Files/corneKb.json)      
 
 #### Local with docker
 ``` bash
@@ -19,7 +19,7 @@ $ docker run -p 8080:80 qmkfm/qmk_configurator:latest
 2. Push compile button 
 3. Dowload HEX file
 4. Flash hex to keyboard(See #Flashing)
-+ Press reset and then: (8 sec window time)
++ Press reset 2 times and then: (8 sec window time)
 ```bash
 $ sudo avrdude -p atmega32u4 -P /dev/ttyACM0 -c avr109 -U flash:w:contra.hex
 ```
